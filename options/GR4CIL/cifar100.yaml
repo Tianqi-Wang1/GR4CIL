@@ -1,0 +1,42 @@
+######### Basic Settings #########
+basic:
+    device: '0'
+    seed: [2026]
+
+    dataset: cifar100_i2t
+    shuffle: false
+
+    method: gr4cil
+    method_type: multi_steps
+    eval_metric: acc
+
+    # Backbone Choises: clip_vit_base_patch16_224
+    backbone: clip_vit_b_16_224 
+    ######### Task Settings, unimportant in Joint #########
+    split_dataset: true
+    init_cls: 10
+    increment: 10
+    
+    note: test
+
+######### Method's Hyperparameters #########
+special:
+    incre_type: cil
+    lambd: 1 # hyperparameter of image to image similarity
+    is_OOD_test: false 
+    T: 1 # Temperature
+
+######### Experiment Settings for Datasets #########
+options:
+    # experiment settings for cifar100
+    cifar100_i2t: 
+        clip_vit_b_16_224:
+            img_size: 224
+
+            epochs: 70 # 70
+            batch_size: 64
+            num_workers: 4            
+
+            opt_type: adamw
+            lrate: 0.005
+            weight_decay: 0.1
