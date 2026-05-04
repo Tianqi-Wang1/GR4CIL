@@ -1,8 +1,8 @@
-# GR4CIL: Gap-compensated Routing for CLIP-based Class Incremental Learning
+# GR4CIL: Gap-compensated Routing for Class Incremental Learning
 
 This repository provides a demo implementation of **GR4CIL**, proposed in the submitted paper:
 
-**GR4CIL: Gap-compensated Routing for CLIP-based Class Incremental Learning**
+**GR4CIL: Gap-compensated Routing for Class Incremental Learning**
 
 The current anonymous release is a lightweight demo version using **CIFAR-100** for class-incremental learning experiments.
 
