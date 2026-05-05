@@ -8,7 +8,7 @@ The current anonymous release is a lightweight demo version using **CIFAR-100** 
 
 ## Overview
 
-GR4CIL is designed for CLIP-based class-incremental learning. The method aims to improve incremental classification by combining task-specific adaptation, gap-compensated classification, and routing-based inference.
+GR4CIL is designed for class-incremental learning. The method aims to improve incremental classification by combining task-specific adaptation, gap-compensated classification, and routing-based inference.
 
 This demo code provides a simplified experimental pipeline for reproducing the main workflow on CIFAR-100.
 
