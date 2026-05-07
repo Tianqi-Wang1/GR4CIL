@@ -62,6 +62,24 @@ This command starts the CIFAR-100 class-incremental learning demo.
 
 ## Notes
 
-This anonymous repository is provided for review purposes. The released code is a demo version intended to illustrate the main training and evaluation pipeline of GR4CIL.
+This anonymous release focuses on the CIFAR-100 demo for illustrating and verifying the main GR4CIL pipeline. Additional scripts for all benchmark datasets will be provided in the de-anonymized final release.
 
-More complete code, additional datasets, and full experimental scripts will be released in the final version.
+## License and Usage Terms
+
+This anonymous release is provided solely for the purpose of reviewing the submitted paper:
+
+**GR4CIL: Gap-compensated Routing for Class-Incremental Learning**
+
+Permission is granted to NeurIPS reviewers, area chairs, senior area chairs, and conference organizers to access, run, and locally modify this code only for the purpose of evaluating the submitted paper during the review process.
+
+Redistribution, public posting, sublicensing, or commercial use of this anonymous review version is not permitted. The code is provided "as is", without warranty of any kind. A standard open-source license may be provided with the de-anonymized camera-ready release.
+
+## Third-party Assets
+
+This repository does not redistribute any dataset files or pretrained model weights.
+
+- **CIFAR-100**: This demo uses CIFAR-100 for class-incremental learning experiments. Users should download and use the dataset from its original source and comply with the original dataset terms. Please cite the original CIFAR technical report when using this dataset.
+
+- **CLIP ViT-B/16**: This demo uses the pretrained CLIP ViT-B/16 model. The pretrained model weights are not included in this repository. Users should download the model from the original OpenAI/Hugging Face source and comply with the corresponding license, model card, and terms of use.
+
+- **Python packages and dependencies**: Third-party packages listed in `requirements.txt` are governed by their own licenses and terms. Users are responsible for complying with the licenses of all dependencies.
