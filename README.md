@@ -72,7 +72,7 @@ This anonymous release is provided solely for the purpose of reviewing the submi
 
 Permission is granted to NeurIPS reviewers, area chairs, senior area chairs, and conference organizers to access, run, and locally modify this code only for the purpose of evaluating the submitted paper during the review process.
 
-Redistribution, public posting, sublicensing, or commercial use of this anonymous review version is not permitted. The code is provided "as is", without warranty of any kind. A standard open-source license may be provided with the de-anonymized camera-ready release.
+Redistribution, public posting, sublicensing, or commercial use of this anonymous review version is not permitted. A standard open-source license may be provided with the de-anonymized camera-ready release.
 
 ## Third-party Assets
 
