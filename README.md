@@ -76,8 +76,6 @@ Redistribution, public posting, sublicensing, or commercial use of this anonymou
 
 ## Third-party Assets
 
-This repository does not redistribute any dataset files or pretrained model weights.
-
 - **CIFAR-100**: This demo uses CIFAR-100 for class-incremental learning experiments. Users should download and use the dataset from its original source and comply with the original dataset terms. Please cite the original CIFAR technical report when using this dataset.
 
 - **CLIP ViT-B/16**: This demo uses the pretrained CLIP ViT-B/16 model. The pretrained model weights are not included in this repository. Users should download the model from the original OpenAI/Hugging Face source and comply with the corresponding license, model card, and terms of use.
